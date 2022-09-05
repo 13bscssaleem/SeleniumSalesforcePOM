@@ -27,13 +27,13 @@ class MainPage(BasePage):
         """Triggers the search"""
 
         element = self.driver.find_element(*MainPageLocators.Username)
-        element.send_keys("a.aleem@curious-impala-gm3l5j.com")
+        element.send_keys("enter your username")
 
     def enter_password(self):
         """Triggers the search"""
 
         element = self.driver.find_element(*MainPageLocators.Password)
-        element.send_keys("123password123")
+        element.send_keys("enter your password")
 
 # class SearchResultsPage(BasePage):
 #   """Search results page action methods come here"""
